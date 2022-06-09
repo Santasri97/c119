@@ -1,0 +1,45 @@
+body {
+    background-image:radial-gradient(circle ,red 30%,orangered 35%,orange 40%,yellow 45%,lime 50%,rgb(0, 255, 72) 55%,aqua 60%,rgb(0, 102, 255) 65% ,blue 70% ,rgb(168, 21, 230) 75%,magenta 80%,rgb(255, 0, 93) 85%);
+    font-family: 'Caveat', cursive;
+}
+
+h1{
+    font-size: 70px;
+    margin-left: 150px;
+}
+
+canvas {
+    animation-name: Santasri;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-top: 70px;
+    border-radius: 25px;
+}
+
+@keyframes Santasri {
+    from {box-shadow: 30px 30px 70px white;}
+    to {box-shadow: 30px 30px 70px orange;}
+}
+
+#show_sketch {
+    float: right;
+    height: 75px;
+    width: 200px;
+    margin-right: 35px;
+    font-size: 30px;
+    background-image:linear-gradient(to bottom right ,rgb(0, 251, 255),rgb(0, 204, 255),rgb(0, 110, 255),rgb(0, 60, 255));
+}
+
+p {
+    font-size: 30px;
+}
+ 
+#score {
+    float: left;
+    margin-left: 30px;
+}
+ 
+#timer {
+    float: right;
+    margin-right: 30px;
+}
